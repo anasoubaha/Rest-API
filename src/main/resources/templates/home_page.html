@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Exams Management System</title>
+
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+	
+</head>
+<body>
+<br>
+	<div align="center" class="container my-2">
+		<h3>Welcome to Exams Management System !</h3>
+		<br>
+		<br>
+		
+		<table border=1 class = "table table-striped table-responsive-md">
+			<thead>
+				<tr>
+					<th>Exams List</th>
+					<th>Students List</th>
+					<th>Subjects List</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a th:href = "@{/exams}" class="btn btn-primary btn-sm mb-3">Exams</a></td>
+					<td><a th:href = "@{/students}" class="btn btn-primary btn-sm mb-3">Students</a></td>
+					<td><a th:href = "@{/subjects}" class="btn btn-primary btn-sm mb-3">Subjects</a></td>	
+				</tr>
+			</tbody>	
+		</table>
+		
+	
+	</div>
+
+</body>
+</html>

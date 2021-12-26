@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Exams Management System</title>
+
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+	
+</head>
+<body>
+	<div class="container">
+		<h1>Student Form</h1>
+		<hr>
+		<h2>Update Student</h2>
+
+		<form action="#" th:action="@{/saveStudent}" th:object="${student}"
+			method="POST">
+				
+				<input type="hidden" th:field="*{Id}" />
+				<label>Name :</label>
+				<input type="text" th:field="*{studName}" class="form-control mb-4 col-4">
+				<label>Email :</label>
+				<input type="text" th:field="*{email}" class="form-control mb-4 col-4">
+				
+				<button type="submit" class="btn btn-info col-2"> Update Student</button>
+		</form>
+		
+		<hr>
+		
+		<a th:href = "@{/students}"> Back to Student List</a><hr>
+		<a th:href = "@{/}"> Back to Home Page</a>
+	</div>
+
+</body>
+</html>

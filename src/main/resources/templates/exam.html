@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Exams Management System</title>
+
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+	
+</head>
+<body>
+
+	<div class="container my-2">
+		<h1>Exams List</h1>
+		
+		<a th:href = "@{/addExam}" class="btn btn-primary btn-sm mb-3"> Add Exam </a>
+		
+		<table border=1 class = "table table-striped table-responsive-md">
+			<thead>
+				<tr>
+					<th>Exam id</th>
+					<th>Exam subject</th>
+					<th>Student concerned</th>
+					<th>Exam room</th>
+					<th>Exam date</th>
+					<th>Actions </th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="exam : ${examsList}">
+					<td th:text="${exam.id}"></td>
+					<td th:text="${exam.getSubj.getSubjName}"></td>
+					<td th:text="${exam.getStud.getstudName}"></td>
+					<td th:text="${exam.getRoom}"></td>
+					<td th:text="${exam.getDate}"></td>
+					<td> <a th:href="@{/updateExam/{id}(id=${exam.id})}" class="btn btn-secondary">Update</a>
+						<a th:href="@{/deleteExam/{id}(id=${exam.id})}" class="btn btn-danger">Delete</a>
+					</td>	
+				</tr>
+			</tbody>	
+		</table>
+		
+	<a th:href = "@{/}"> Back to Home Page</a>
+	</div>
+
+</body>
+</html>

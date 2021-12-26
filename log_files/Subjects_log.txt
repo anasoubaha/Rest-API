@@ -1,0 +1,32 @@
++ Succesfully created Subject id : 1 --- At :Mon Jul 12 16:26:04 GMT 2021
++ Succesfully created Subject id : 2 --- At :Mon Jul 12 16:26:51 GMT 2021
+??? Succesfully found All Subjects --- At :Mon Jul 12 16:27:54 GMT 2021
++ Succesfully created Subject id : 2 --- At :Mon Jul 12 16:32:39 GMT 2021
+??? Succesfully found All Subjects --- At :Mon Jul 12 16:33:39 GMT 2021
++ Succesfully created Subject id : 3 --- At :Tue Jul 13 12:42:34 GMT 2021
++ Succesfully created Subject id : 1 --- At :Tue Jul 13 12:44:32 GMT 2021
++ Succesfully created Subject id : 1 --- At :Tue Jul 13 12:54:20 GMT 2021
++ Succesfully created Subject id : 2 --- At :Tue Jul 13 12:54:41 GMT 2021
++ Succesfully created Subject id : 3 --- At :Tue Jul 13 12:54:48 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 12:17:51 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 12:18:18 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 12:24:53 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 12:25:22 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 12:26:40 GMT 2021
+? Succesfully found Subject id : 4 --- At :Fri Jul 16 12:31:42 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 12:31:58 GMT 2021
+- Succesfully deleted Subject id : 4 --- At :Fri Jul 16 12:35:27 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 12:35:27 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 16:36:22 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 17:00:56 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 17:01:13 GMT 2021
+? Succesfully found Subject id : 1 --- At :Fri Jul 16 17:01:15 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 17:02:16 GMT 2021
+? Succesfully found Subject id : 3 --- At :Fri Jul 16 17:02:17 GMT 2021
+? Succesfully found Subject id : 3 --- At :Fri Jul 16 17:05:27 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 17:06:16 GMT 2021
+? Succesfully found Subject id : 1 --- At :Fri Jul 16 17:06:19 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 17:06:24 GMT 2021
+? Succesfully found Subject id : 1 --- At :Fri Jul 16 17:06:25 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 17:06:26 GMT 2021
+??? Succesfully found All Subjects --- At :Fri Jul 16 17:06:31 GMT 2021

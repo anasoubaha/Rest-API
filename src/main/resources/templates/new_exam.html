@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exams Management System</title>
+
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+	
+</head>
+<body>
+	<div class="container">
+		<h1>Exam Form</h1>
+		<hr>
+		<h2>Schedule an Exam</h2>
+
+		<form action="#" th:action="@{/saveExam}" th:object="${exam}"
+			method="POST">
+			<label>Id :</label>
+			<input type="text" th:field="*{Id}"
+				placeholder="Exam Id" class="form-control mb-4 col-4">
+				<label>Subject :</label>
+				<input type="text" th:field="*{subj}"
+				placeholder="Exam Subject Id" class="form-control mb-4 col-4">
+				<label>Student :</label>
+				<input type="text" th:field="*{stud}"
+				placeholder="Student Id" class="form-control mb-4 col-4">
+				<label>Room :</label>
+				<input type="text" th:field="*{room}"
+				placeholder="Room" class="form-control mb-4 col-4">
+				<label>Date :</label>
+				<input type="text" th:field="*{date}"
+				placeholder="yyyy/mm/dd hh:mm" class="form-control mb-4 col-4">
+				
+				<button type="submit" class="btn btn-info col-2"> Save Exam</button>
+		</form>
+		
+		<hr>
+		
+		<a th:href = "@{/exams}"> Back to Exams List</a><hr>
+		<a th:href = "@{/}"> Back to Home Page</a>
+	</div>
+
+</body>
+</html>

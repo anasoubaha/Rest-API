@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exams Management System</title>
+
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+	
+</head>
+<body>
+	<div class="container">
+		<h1>Subject Form</h1>
+		<hr>
+		<h2>Update Subject</h2>
+
+		<form action="#" th:action="@{/saveSubject}" th:object="${subject}"
+			method="POST">
+	
+				<input type="hidden" th:field="*{Id}" />
+				<label>Name :</label>
+				<input type="text" th:field="*{subjName}" class="form-control mb-4 col-4">
+				<label>Prof :</label>
+				<input type="text" th:field="*{profName}" class="form-control mb-4 col-4">
+				
+				<button type="submit" class="btn btn-info col-2"> Update Subject</button>
+		</form>
+		
+		<hr>
+		
+		<a th:href = "@{/subjects}"> Back to Subject List</a><hr>
+		<a th:href = "@{/}"> Back to Home Page</a>
+	</div>
+
+</body>
+</html>
